@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T05:41:24Z" name="Suite" finished-at="2021-07-15T05:43:56Z" duration-ms="151408">
+    <groups>
+    </groups>
+    <test started-at="2021-07-15T05:41:24Z" name="Test" finished-at="2021-07-15T05:43:56Z" duration-ms="151408">
+      <class name="com.IdentifyCourse.LanguageLearningTestCase">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@6304101a]" started-at="2021-07-15T11:11:24Z" name="beforeClass" finished-at="2021-07-15T11:12:03Z" duration-ms="38308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openMyBlog()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@6304101a]" started-at="2021-07-15T11:12:03Z" name="openMyBlog" finished-at="2021-07-15T11:13:35Z" duration-ms="92649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@6304101a]" started-at="2021-07-15T11:13:35Z" name="afterClass" finished-at="2021-07-15T11:13:56Z" duration-ms="20360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.IdentifyCourse.LanguageLearningTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

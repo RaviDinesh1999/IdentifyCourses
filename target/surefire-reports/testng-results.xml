@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="155033" started-at="2021-07-15T07:21:23Z" finished-at="2021-07-15T07:23:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="155033" started-at="2021-07-15T07:21:23Z" finished-at="2021-07-15T07:23:58Z">
+      <class name="com.IdentifyCourse.LanguageLearningTestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="beforeClass" is-config="true" duration-ms="38938" started-at="2021-07-15T12:51:23Z" finished-at="2021-07-15T12:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="openMyBlog" duration-ms="109101" started-at="2021-07-15T12:52:02Z" finished-at="2021-07-15T12:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="afterClass" is-config="true" duration-ms="6903" started-at="2021-07-15T12:53:51Z" finished-at="2021-07-15T12:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.IdentifyCourse.LanguageLearningTestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
