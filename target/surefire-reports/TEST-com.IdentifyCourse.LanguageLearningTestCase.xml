@@ -1,66 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.IdentifyCourse.LanguageLearningTestCase" time="160.113" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.IdentifyCourse.LanguageLearningTestCase" time="85.692" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Defection\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\elcot\.jenkins\workspace\MavenProject"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\elcot\.jenkins\workspace\MavenProject"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\elcot\AppData\Local\Temp\"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\Defection\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\elcot\eclipse-workspace\IdentifyCourses\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\elcot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="D:\Defection\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\adb;C:\ProgramData\Anaconda\Library\mingw-w64\bin;C:\ProgramData\Anaconda\Library\usr\bin;C:\ProgramData\Anaconda\Library\bin;C:\ProgramData\Anaconda\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\java\jdk1.8.0_151\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;D:\dinesh software\OpenCobolIDE\platforms;C:\Windows\System32\sqlite;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;D:\Multisim\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;D:\R2015a\runtime\win64;D:\R2015a\bin;D:\R2015a\polyspace\bin;C:\Program Files\nodejs\;D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\adabas\bin;C:\adabas\pgm;C:\Program Files\Android\Android Studio\gradle\gradle-4.1\bin;C:\Users\elcot\AppData\Local\Microsoft\WindowsApps;C:\Users\elcot\AppData\Local\Android\sdk\flutter\bin;C:\Program Files\Google Protobuf\bin;C:\Windows\System32\sqlite;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\elcot\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\elcot"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
     <property name="user.name" value="ravi"/>
-    <property name="java.class.path" value="D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\elcot\eclipse-workspace\IdentifyCourses\pom.xml clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\elcot\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\elcot\eclipse-workspace\IdentifyCourses"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\elcot\eclipse-workspace\IdentifyCourses"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Defection\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Defection/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Defection/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\adb;C:\ProgramData\Anaconda\Library\mingw-w64\bin;C:\ProgramData\Anaconda\Library\usr\bin;C:\ProgramData\Anaconda\Library\bin;C:\ProgramData\Anaconda\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\java\jdk1.8.0_151\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;D:\dinesh software\OpenCobolIDE\platforms;C:\Windows\System32\sqlite;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;D:\Multisim\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;D:\R2015a\runtime\win64;D:\R2015a\bin;D:\R2015a\polyspace\bin;C:\Program Files\nodejs\;D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\adabas\bin;C:\adabas\pgm;C:\Program Files\Android\Android Studio\gradle\gradle-4.1\bin;C:\Users\elcot\AppData\Local\Microsoft\WindowsApps;C:\Users\elcot\AppData\Local\Android\sdk\flutter\bin;C:\Program Files\Google Protobuf\bin;C:\Windows\System32\sqlite;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\elcot\AppData\Roaming\npm;D:\Defection\eclipse-jee-2021-03-R-win32-x86_64\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Cogni\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="classworlds.conf" value="C:\Users\elcot\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3296599418424862795.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="openMyBlog" classname="com.IdentifyCourse.LanguageLearningTestCase" time="109.104"/>
+  <testcase name="openWebSite" classname="com.IdentifyCourse.LanguageLearningTestCase" time="8.326"/>
+  <testcase name="secondCourse" classname="com.IdentifyCourse.LanguageLearningTestCase" time="23.057"/>
+  <testcase name="selectLanguage2" classname="com.IdentifyCourse.LanguageLearningTestCase" time="26.998"/>
+  <testcase name="selectLevel2" classname="com.IdentifyCourse.LanguageLearningTestCase" time="1.274"/>
 </testsuite>

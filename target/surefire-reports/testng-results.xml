@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="155033" started-at="2021-07-15T07:21:23Z" finished-at="2021-07-15T07:23:58Z">
+  <suite started-at="2021-07-15T19:06:54Z" name="Surefire suite" finished-at="2021-07-15T19:07:54Z" duration-ms="59710">
     <groups>
+      <group name="Regression">
+        <method signature="LanguageLearningTestCase.openWebSite()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" name="openWebSite" class="com.IdentifyCourse.LanguageLearningTestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LanguageLearningTestCase.secondCourse()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" name="secondCourse" class="com.IdentifyCourse.LanguageLearningTestCase"/>
+        <method signature="LanguageLearningTestCase.selectLanguage2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" name="selectLanguage2" class="com.IdentifyCourse.LanguageLearningTestCase"/>
+        <method signature="LanguageLearningTestCase.selectLevel2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" name="selectLevel2" class="com.IdentifyCourse.LanguageLearningTestCase"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="Surefire test" duration-ms="155033" started-at="2021-07-15T07:21:23Z" finished-at="2021-07-15T07:23:58Z">
+    <test started-at="2021-07-15T19:06:54Z" name="Surefire test" finished-at="2021-07-15T19:07:54Z" duration-ms="59710">
       <class name="com.IdentifyCourse.LanguageLearningTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="beforeClass" is-config="true" duration-ms="38938" started-at="2021-07-15T12:51:23Z" finished-at="2021-07-15T12:52:02Z">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:36:45Z" name="beforeClass" finished-at="2021-07-16T00:36:54Z" duration-ms="9202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="openMyBlog" duration-ms="109101" started-at="2021-07-15T12:52:02Z" finished-at="2021-07-15T12:53:51Z">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:36:54Z" name="openWebSite" finished-at="2021-07-16T00:37:03Z" duration-ms="8326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openMyBlog -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@21bcffb5]" name="afterClass" is-config="true" duration-ms="6903" started-at="2021-07-15T12:53:51Z" finished-at="2021-07-15T12:53:58Z">
+        </test-method> <!-- openWebSite -->
+        <test-method signature="secondCourse()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:37:03Z" name="secondCourse" finished-at="2021-07-16T00:37:26Z" duration-ms="23058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondCourse -->
+        <test-method signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:37:26Z" name="selectLanguage2" finished-at="2021-07-16T00:37:53Z" duration-ms="26999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguage2 -->
+        <test-method signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:37:53Z" name="selectLevel2" finished-at="2021-07-16T00:37:54Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLevel2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@29626d54]" started-at="2021-07-16T00:37:55Z" name="afterClass" finished-at="2021-07-16T00:38:09Z" duration-ms="14005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
