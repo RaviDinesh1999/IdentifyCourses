@@ -7,15 +7,15 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
 public class LanguageLearningTestCase  {
 
 	
-	static WebDriver driver = null;
+	public static WebDriver driver = null;
 	
 	
 	
@@ -48,7 +48,7 @@ public class LanguageLearningTestCase  {
 //		}
 //	}
 	  
-	@BeforeSuite(groups = { "Regression" })
+	@BeforeClass(groups = { "Regression" })
 	  public void beforeClass() throws Exception {
 	   
 //		  System.setProperty("webdriver.chrome.driver",
@@ -58,7 +58,7 @@ public class LanguageLearningTestCase  {
 		driver = dri.setupDriver();
 	  }
 	 
-	@AfterSuite(groups = { "Regression" })
+	@AfterClass(groups = { "Regression" })
 	  public void afterClass() {
 	   driver.quit();
 	  }
@@ -81,7 +81,7 @@ public class LanguageLearningTestCase  {
 	public void selectLanguage2() {
 		// Extract all the language with its total count
 	
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 //		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 //		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		PageObjectModel.languageBtn().click();

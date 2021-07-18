@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]">
-  <test parallel="none" name="Test(failed)">
+  <test parallel="none" name="Test3(failed)">
     <classes>
       <class name="com.IdentifyCourse.LanguageLearningTestCase">
         <methods>
           <include name="afterClass"/>
-          <include name="selectLevel2"/>
           <include name="beforeClass"/>
-          <include name="selectLanguage2"/>
         </methods>
       </class> <!-- com.IdentifyCourse.LanguageLearningTestCase -->
+      <class name="com.IdentifyCourse.IdentifyCourseTestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="execution"/>
+        </methods>
+      </class> <!-- com.IdentifyCourse.IdentifyCourseTestCase -->
+      <class name="com.IdentifyCourse.FormFillingTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.IdentifyCourse.FormFillingTestCase -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

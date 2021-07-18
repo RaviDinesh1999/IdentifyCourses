@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.FormFillingTestCase" class="method navigator-link" hash-for-method="enterprise">enterprise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.IdentifyCourseTestCase" class="method navigator-link" hash-for-method="execution">execution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.FormFillingTestCase" class="method navigator-link" hash-for-method="formfilling">formfilling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.LanguageLearningTestCase" class="method navigator-link" hash-for-method="openWebSite">openWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.FormFillingTestCase" class="method navigator-link" hash-for-method="openWebSite">openWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.IdentifyCourseTestCase" class="method navigator-link" hash-for-method="openWebSite">openWebSite</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,6 +192,57 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.IdentifyCourse.IdentifyCourseTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="execution">
+                  </a> <!-- execution -->
+                  <span class="method-name">execution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openWebSite">
+                  </a> <!-- openWebSite -->
+                  <span class="method-name">openWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.IdentifyCourse.FormFillingTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterprise">
+                  </a> <!-- enterprise -->
+                  <span class="method-name">enterprise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formfilling">
+                  </a> <!-- formfilling -->
+                  <span class="method-name">formfilling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openWebSite">
+                  </a> <!-- openWebSite -->
+                  <span class="method-name">openWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -177,11 +253,21 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.IdentifyCourse.LanguageLearningTestCase&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.IdentifyCourse.FormFillingTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test name=&quot;Test3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.IdentifyCourse.IdentifyCourseTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,7 +279,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,6 +299,10 @@
               <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">execution</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">openWebSite</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -214,6 +310,14 @@
             <div class="test-group">
               <span class="test-group-name">Smoke</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterprise</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">formfilling</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">secondCourse</span>
                 <br/>
@@ -243,28 +347,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectLanguage2')
-data.setCell(0, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(0, 3, 27115);
+data.setCell(0, 1, 'execution')
+data.setCell(0, 2, 'com.IdentifyCourse.IdentifyCourseTestCase')
+data.setCell(0, 3, 69485);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openWebSite')
+data.setCell(1, 1, 'selectLanguage2')
 data.setCell(1, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(1, 3, 11170);
+data.setCell(1, 3, 24857);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'secondCourse')
-data.setCell(2, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(2, 3, 10988);
+data.setCell(2, 1, 'enterprise')
+data.setCell(2, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(2, 3, 24131);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectLevel2')
-data.setCell(3, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(3, 3, 868);
+data.setCell(3, 1, 'openWebSite')
+data.setCell(3, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(3, 3, 10144);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'formfilling')
+data.setCell(4, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(4, 3, 7628);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'secondCourse')
+data.setCell(5, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
+data.setCell(5, 3, 7491);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openWebSite')
+data.setCell(6, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
+data.setCell(6, 3, 6805);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'openWebSite')
+data.setCell(7, 2, 'com.IdentifyCourse.IdentifyCourseTestCase')
+data.setCell(7, 3, 6703);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectLevel2')
+data.setCell(8, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
+data.setCell(8, 3, 876);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -291,30 +415,72 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.IdentifyCourse.LanguageLearningTestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
+              <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openWebSite</span>
-                <span class="method-start">6267 ms</span>
+                <span class="method-start">4911 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">secondCourse</span>
-                <span class="method-start">17447 ms</span>
+                <span class="method-start">11724 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectLanguage2</span>
-                <span class="method-start">28445 ms</span>
+                <span class="method-start">19219 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectLevel2</span>
-                <span class="method-start">55565 ms</span>
+                <span class="method-start">44083 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite after">
+              <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">57396 ms</span>
-              </div> <!-- configuration-suite after -->
+                <span class="method-start">44963 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.IdentifyCourse.FormFillingTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">47830 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openWebSite</span>
+                <span class="method-start">50896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterprise</span>
+                <span class="method-start">61046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">formfilling</span>
+                <span class="method-start">85186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">92818 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.IdentifyCourse.IdentifyCourseTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">94728 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openWebSite</span>
+                <span class="method-start">97524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">execution</span>
+                <span class="method-start">104231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">173721 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
