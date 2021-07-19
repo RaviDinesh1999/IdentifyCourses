@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.IdentifyCourseTestCase" class="method navigator-link" hash-for-method="execution">execution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.FormFillingTestCase" class="method navigator-link" hash-for-method="enterprise">enterprise</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.IdentifyCourse.IdentifyCourseTestCase" class="method navigator-link" hash-for-method="execution">execution</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -156,6 +165,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.IdentifyCourse.IdentifyCourseTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="execution">
+                  </a> <!-- execution -->
+                  <span class="method-name">execution</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.124)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61898}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\elcot\AppData\Local\Temp\scoped_dir3200_897935602}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.124, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 67d20294ee8106bef53635d2726f1b61
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at com.IdentifyCourse.IdentifyCourseTestCase.execution(IdentifyCourseTestCase.java:43)
+... Removed 29 stack frames<br/> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.124)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;HP&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61898}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\elcot\AppData\Local\Temp\scoped_dir3200_897935602}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.124, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 67d20294ee8106bef53635d2726f1b61
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at com.IdentifyCourse.IdentifyCourseTestCase.execution(IdentifyCourseTestCase.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)<br>org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)<br>com.IdentifyCourse.IdentifyCourseTestCase.execution(IdentifyCourseTestCase.java:43)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.base/java.lang.reflect.Method.invoke(Method.java:564)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -198,13 +285,6 @@
               <span class="class-name">com.IdentifyCourse.IdentifyCourseTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="execution">
-                  </a> <!-- execution -->
-                  <span class="method-name">execution</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="openWebSite">
@@ -349,46 +429,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'execution')
-data.setCell(0, 2, 'com.IdentifyCourse.IdentifyCourseTestCase')
-data.setCell(0, 3, 69485);
+data.setCell(0, 1, 'enterprise')
+data.setCell(0, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(0, 3, 132567);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'selectLanguage2')
 data.setCell(1, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(1, 3, 24857);
+data.setCell(1, 3, 118817);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enterprise')
-data.setCell(2, 2, 'com.IdentifyCourse.FormFillingTestCase')
-data.setCell(2, 3, 24131);
+data.setCell(2, 1, 'secondCourse')
+data.setCell(2, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
+data.setCell(2, 3, 51445);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'openWebSite')
-data.setCell(3, 2, 'com.IdentifyCourse.FormFillingTestCase')
-data.setCell(3, 3, 10144);
+data.setCell(3, 2, 'com.IdentifyCourse.IdentifyCourseTestCase')
+data.setCell(3, 3, 42229);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'formfilling')
-data.setCell(4, 2, 'com.IdentifyCourse.FormFillingTestCase')
-data.setCell(4, 3, 7628);
+data.setCell(4, 1, 'openWebSite')
+data.setCell(4, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
+data.setCell(4, 3, 37961);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'secondCourse')
-data.setCell(5, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(5, 3, 7491);
+data.setCell(5, 1, 'openWebSite')
+data.setCell(5, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(5, 3, 31578);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'openWebSite')
-data.setCell(6, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(6, 3, 6805);
+data.setCell(6, 1, 'formfilling')
+data.setCell(6, 2, 'com.IdentifyCourse.FormFillingTestCase')
+data.setCell(6, 3, 19016);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'openWebSite')
+data.setCell(7, 1, 'execution')
 data.setCell(7, 2, 'com.IdentifyCourse.IdentifyCourseTestCase')
-data.setCell(7, 3, 6703);
+data.setCell(7, 3, 11373);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'selectLevel2')
 data.setCell(8, 2, 'com.IdentifyCourse.LanguageLearningTestCase')
-data.setCell(8, 3, 876);
+data.setCell(8, 3, 1604);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -421,65 +501,67 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openWebSite</span>
-                <span class="method-start">4911 ms</span>
+                <span class="method-start">39732 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">secondCourse</span>
-                <span class="method-start">11724 ms</span>
+                <span class="method-start">77702 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectLanguage2</span>
-                <span class="method-start">19219 ms</span>
+                <span class="method-start">129156 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectLevel2</span>
-                <span class="method-start">44083 ms</span>
+                <span class="method-start">247980 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">44963 ms</span>
+                <span class="method-start">249589 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.IdentifyCourse.FormFillingTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">47830 ms</span>
+                <span class="method-start">269261 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openWebSite</span>
-                <span class="method-start">50896 ms</span>
+                <span class="method-start">280809 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enterprise</span>
-                <span class="method-start">61046 ms</span>
+                <span class="method-start">312393 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">formfilling</span>
-                <span class="method-start">85186 ms</span>
+                <span class="method-start">444967 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">92818 ms</span>
+                <span class="method-start">463990 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.IdentifyCourse.IdentifyCourseTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">94728 ms</span>
+                <span class="method-start">470750 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openWebSite</span>
-                <span class="method-start">97524 ms</span>
+                <span class="method-start">483304 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">execution</span>
-                <span class="method-start">104231 ms</span>
+                <span class="method-start">525541 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">173721 ms</span>
+                <span class="method-start">536970 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

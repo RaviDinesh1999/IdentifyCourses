@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="9" passed="9" failed="0" skipped="0">
+<testng-results total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-18T08:52:25Z" name="Suite" finished-at="2021-07-18T08:55:21Z" duration-ms="175964">
+  <suite started-at="2021-07-19T05:34:04Z" name="Suite" finished-at="2021-07-19T05:43:05Z" duration-ms="541324">
     <groups>
       <group name="Regression">
         <method signature="LanguageLearningTestCase.openWebSite()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" name="openWebSite" class="com.IdentifyCourse.LanguageLearningTestCase"/>
@@ -18,73 +18,135 @@
         <method signature="FormFillingTestCase.formfilling()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" name="formfilling" class="com.IdentifyCourse.FormFillingTestCase"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-07-18T08:52:25Z" name="Test1" finished-at="2021-07-18T08:53:13Z" duration-ms="47601">
+    <test started-at="2021-07-19T05:34:04Z" name="Test1" finished-at="2021-07-19T05:38:32Z" duration-ms="267961">
       <class name="com.IdentifyCourse.LanguageLearningTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:22:25Z" name="beforeClass" finished-at="2021-07-18T14:22:30Z" duration-ms="4897" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:04:04Z" name="beforeClass" finished-at="2021-07-19T11:04:44Z" duration-ms="39715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:22:30Z" name="openWebSite" finished-at="2021-07-18T14:22:37Z" duration-ms="6805" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:04:44Z" name="openWebSite" finished-at="2021-07-19T11:05:22Z" duration-ms="37961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="secondCourse()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:22:37Z" name="secondCourse" finished-at="2021-07-18T14:22:44Z" duration-ms="7491" status="PASS">
+        <test-method signature="secondCourse()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:05:22Z" name="secondCourse" finished-at="2021-07-19T11:06:13Z" duration-ms="51445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondCourse -->
-        <test-method signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:22:44Z" name="selectLanguage2" finished-at="2021-07-18T14:23:09Z" duration-ms="24857" status="PASS">
+        <test-method signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:06:13Z" name="selectLanguage2" finished-at="2021-07-19T11:08:12Z" duration-ms="118817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLanguage2 -->
-        <test-method signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:23:09Z" name="selectLevel2" finished-at="2021-07-18T14:23:10Z" duration-ms="876" status="PASS">
+        <test-method signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:08:12Z" name="selectLevel2" finished-at="2021-07-19T11:08:14Z" duration-ms="1604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLevel2 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-18T14:23:10Z" name="afterClass" finished-at="2021-07-18T14:23:13Z" duration-ms="2593" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.LanguageLearningTestCase@78aa1f72]" started-at="2021-07-19T11:08:14Z" name="afterClass" finished-at="2021-07-19T11:08:32Z" duration-ms="18111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.IdentifyCourse.LanguageLearningTestCase -->
     </test> <!-- Test1 -->
-    <test started-at="2021-07-18T08:53:13Z" name="Test2" finished-at="2021-07-18T08:54:00Z" duration-ms="46858">
+    <test started-at="2021-07-19T05:38:34Z" name="Test2" finished-at="2021-07-19T05:41:55Z" duration-ms="201425">
       <class name="com.IdentifyCourse.FormFillingTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-18T14:23:13Z" name="beforeClass" finished-at="2021-07-18T14:23:16Z" duration-ms="3065" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-19T11:08:34Z" name="beforeClass" finished-at="2021-07-19T11:08:45Z" duration-ms="11544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-18T14:23:16Z" name="openWebSite" finished-at="2021-07-18T14:23:26Z" duration-ms="10144" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-19T11:08:45Z" name="openWebSite" finished-at="2021-07-19T11:09:17Z" duration-ms="31578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="enterprise()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-18T14:23:26Z" name="enterprise" finished-at="2021-07-18T14:23:50Z" duration-ms="24131" status="PASS">
+        <test-method signature="enterprise()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-19T11:09:17Z" name="enterprise" finished-at="2021-07-19T11:11:29Z" duration-ms="132567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterprise -->
-        <test-method signature="formfilling()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-18T14:23:50Z" name="formfilling" finished-at="2021-07-18T14:23:58Z" duration-ms="7628" status="PASS">
+        <test-method signature="formfilling()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-19T11:11:29Z" name="formfilling" finished-at="2021-07-19T11:11:48Z" duration-ms="19016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfilling -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-18T14:23:58Z" name="afterClass" finished-at="2021-07-18T14:24:00Z" duration-ms="1858" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.FormFillingTestCase@5082d622]" started-at="2021-07-19T11:11:48Z" name="afterClass" finished-at="2021-07-19T11:11:55Z" duration-ms="6690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.IdentifyCourse.FormFillingTestCase -->
     </test> <!-- Test2 -->
-    <test started-at="2021-07-18T08:54:00Z" name="Test3" finished-at="2021-07-18T08:55:21Z" duration-ms="81215">
+    <test started-at="2021-07-19T05:41:55Z" name="Test3" finished-at="2021-07-19T05:43:05Z" duration-ms="70343">
       <class name="com.IdentifyCourse.IdentifyCourseTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-18T14:24:00Z" name="beforeClass" finished-at="2021-07-18T14:24:02Z" duration-ms="2794" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-19T11:11:55Z" name="beforeClass" finished-at="2021-07-19T11:12:08Z" duration-ms="12552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-18T14:24:02Z" name="openWebSite" finished-at="2021-07-18T14:24:09Z" duration-ms="6703" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-19T11:12:08Z" name="openWebSite" finished-at="2021-07-19T11:12:50Z" duration-ms="42229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="execution()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-18T14:24:09Z" name="execution" finished-at="2021-07-18T14:25:19Z" duration-ms="69485" status="PASS">
+        <test-method signature="execution()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-19T11:12:50Z" name="execution" finished-at="2021-07-19T11:13:01Z" duration-ms="11373" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.124)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'HP', ip: '192.168.43.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61898}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\elcot\AppData\Local\Temp\scoped_dir3200_897935602}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.124, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 67d20294ee8106bef53635d2726f1b61]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.124)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'HP', ip: '192.168.43.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61898}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\elcot\AppData\Local\Temp\scoped_dir3200_897935602}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.124, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 67d20294ee8106bef53635d2726f1b61
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at com.IdentifyCourse.IdentifyCourseTestCase.execution(IdentifyCourseTestCase.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execution -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-18T14:25:19Z" name="afterClass" finished-at="2021-07-18T14:25:21Z" duration-ms="2202" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.IdentifyCourseTestCase@6853425f]" started-at="2021-07-19T11:13:01Z" name="afterClass" finished-at="2021-07-19T11:13:05Z" duration-ms="4101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
